@@ -1,13 +1,35 @@
-.circle{
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    background: linear-gradient(to bottom, #EE5921, #FFA600);
+}
+
+img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
 }
+
+a {
+    display: block;
+    margin: 15px 0;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #f0f0f0;
+}
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#8b0000,#ff6666);
+    min-height: 100vh;
+    background: linear-gradient(to bottom,#EE5921, #FFA600);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
-    font-family: arial, sans-serif;
 }
